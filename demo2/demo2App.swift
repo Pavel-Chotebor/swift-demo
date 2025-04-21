@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct demo2App: App {
+struct ContentView: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                HomeView()
+                .preferredColorScheme(.dark)
         }
     }
 }
+
